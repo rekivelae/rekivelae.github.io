@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head> 
+<title>
+	Real Madrid
+</title>
+
+<style>
+
+	#otsikko {
+		color : #121212;
+		font-size : 30px;
+		border : solid 0px #ff0000;
+		width: 500px;
+		//height : 50px;
+		text-align : center;
+		padding : 20px;
+		border-radius : 10px;
+		//background : #dddddd;
+		font-family : Arial;
+		text-decoration : underline;
+		font-weight : bold;
+		position : absolute;
+		top:50px;
+		left : 300px;	
+	}
+
+	#linkit {
+		color : #121212
+		font-size : 20px;
+		border : dotted 2px #0000ff;
+		width: 100px;
+		height : 150px;
+		text-align : center;
+		padding : 20px;
+		border-radius : 5px;
+		background : rgba(200,200,200,0.8);
+		font-family : Arial;
+		position : absolute;
+		top:150px;
+		left : 50px;	
+	}
+
+
+	.linkki {
+		text-decoration : none;
+		color:#ff0000;
+		font-size : 18px;
+	}
+
+	.linkki:visited {
+		color: #00ff00;
+	}
+
+	.linkki:hover {
+		color:#0000ff;
+		text-decoration : underline;
+		font-size : 19px;
+		//background : #454545;
+	}
+
+	#keskilaatikko {
+		color : #121212;
+		font-size : 18px;
+		border : solid 0px #ff0000;
+		width: 600px;
+		height : 300px;
+		padding : 20px;
+		border-radius : 10px;
+		background : rgba(200,200,200,0.8);
+
+		font-family : Arial;
+		text-decoration : underline;
+		font-weight : bold;
+		position : absolute;
+		top:150px;
+		left : 250px;	
+		overflow : auto;
+	}
+
+
+	body {
+		background : url("auto.webp");
+		background-repeat : no-repeat;
+		background-position: 20px 30px;
+		background-size: cover;
+
+	}
+
+
+	#logo {
+		position:absolute;
+		left : 120px;
+		top : 20px;
+		animation-name : logoanimaatio;
+		animation-duration : 2s;
+		animation-iteration-count : infinite;
+		animation-timing-function: linear;
+	}
+
+	@keyframes logoanimaatio {
+		0% {transform : rotateY(0deg);}
+		25%  {transform: rotateY(90deg);}
+  		50%  {transform: rotateY(180deg);}
+  		75%  {transform: rotateY(270deg);}
+  		100% {transform: rotateY(360deg);}
+
+	}
+
+
+
+
+</style>
+</head>
+<body>
+
+	<div id="logo" >
+	<img src="real.png" height="150px" />
+	</div>
+
+
+
+	<div id="otsikko">
+		Real Madrid
+	</div>
+	<div id="linkit">
+		<a href="https://www.youtube.com" class="linkki" >Linkki 1</a><br />
+		<a href="https://www.mtv3.fi" class="linkki" >Linkki 2</a><br />
+		<a href="tokasivu.html" class="linkki" >Linkki 3</a><br />
+		<a href="ekasivu.html" class="linkki" >Linkki 4</a><br />
+	</div>
+
+	<div id="keskilaatikko">
+		Real Madrid Club de Fútbol [reˈal maˈðɾið kluβ de ˈfutβol] on jalkapallosta parhaiten tunnettu urheiluseura Espanjan pääkaupungista Madridista. Se on pelannut Espanjan jalkapallon pääsarjassa Primera Divisiónissa koko sarjan historian ajan. Seura on muun muassa 36 sarjamestaruudellaan ja 15 Euroopan cupin voitollaan menestynein seura espanjalaisissa ja eurooppalaisissa kilpailuissa. Seuralla on myös lähes yhtä menestynyt koripallojaosto Real Madrid de Baloncesto, jonka lisäksi sillä on ollut historiansa varrella toimintaa useissa muissa lajeissa.
+
+		<img src="real.png" />
+
+	</div>
+
+
+	
+
+</body>
+
+</html>

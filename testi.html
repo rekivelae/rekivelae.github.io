@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Sivun Otsikko</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .main-container {
+            display: flex;
+            flex: 1; /* Täyttää lopun sivun */
+        }
+
+        nav {
+            width: 200px;
+            background-color: rgb(000, 255, 70);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .content-window {
+            flex: 1;
+            margin: 20px;
+            border: 2px solid #333;
+            background-color: #fff;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sivun Pääotsikko</h1>
+    </header>
+
+    <div class="main-container">
+        <nav>
+            <a href="#">Linkki 1</a>
+            <a href="#">Linkki 2</a>
+            <a href="#">Linkki 3</a>
+            <a href="#">Linkki 4</a>
+        </nav>
+
+        <main class="content-window">
+            <h2>Pääikkuna</h2>
+            <p>Tähän tulee ikkunan sisältö...</p>
+        </main>
+    </div>
+
+</body>
+</html>
